@@ -1,41 +1,65 @@
-# TITANIC SURVIVIAL PREDICTION
+# 🔍 Machine Learning Projects
 
-#Description
-This project focuses on building a predictive model to determine whether a passenger on the Titanic would have survived or not, based on features like age, gender, passenger class, fare.  Using machine learning classification techniques, this model learns patterns from the real Titanic dataset to make accurate predictions about survival outcomes.
+This repository includes three beginner-friendly machine learning projects focused on classification and regression. Each project uses a real or common dataset and demonstrates essential ML workflows like data cleaning, preprocessing, training, and evaluation.
 
-#Objective
-The goal is to analyze historical passenger data and build a model that predicts survival (Yes/No) based on key factors like:
+---
 
-Passenger Class (Pclass)
-Gender (Sex)
-Age
-Siblings/Spouse aboard (SibSp)
-Parents/Children aboard (Parch)
-Fare paid
-Embarked location
+## 1. 🛳️ Titanic Survival Prediction
 
-#Tools & Technologies
+**Objective:** Predict whether a passenger on the Titanic survived based on features such as age, gender, class, fare, and embarkation port.
 
-Python
-Pandas & NumPy – for data manipulation
-Matplotlib & Seaborn – for data visualization
-Scikit-learn – for model building and evaluation
-Jupyter Notebook – for coding and step-by-step documentation
+**Dataset:** [Kaggle Titanic Dataset](https://www.kaggle.com/datasets/yasserh/titanic-dataset)
 
-#Machine Learning Approach
+**Tools Used:**
+- Python
+- Pandas 
+- Scikit-learn
+- Seaborn & Matplotlib
 
-Data Cleaning:
-Handled missing values (like filling missing ages with the median)
-Dropped irrelevant features (like Passenger ID, Ticket, and Cabin)
+**Key Highlights:**
+- Handled missing values and encoded categorical features
+- Built a Logistic Regression model to classify survival
+- Evaluated model with accuracy and classification metrics
+- Predicts survival outcome for new passenger data
 
-Feature Encoding:
-Converted categorical variables such as Sex and Embarked into numeric format
+---
 
-Model Training:
-Trained a Logistic Regression model (also tested other models like Random Forest)
+## 2. 🎬 Movie Rating Prediction
 
-Evaluation:
-Measured model performance using accuracy, confusion matrix, and classification report
+**Objective:** Estimate a movie’s IMDb rating using features like genre, director, and lead actor.
 
-Prediction:
-Built a function to predict survival for new passengers based on user input
+**Dataset:** Indian movies dataset (https://www.kaggle.com/datasets/adrianmcmahon/imdb-india-movies)
+
+**Tools Used:**
+- Python
+- Pandas
+- LabelEncoder
+- Linear Regression (Scikit-learn)
+
+**Key Highlights:**
+- Cleaned and encoded categorical data
+- Applied Linear Regression for rating prediction
+- Measured accuracy using Mean Squared Error
+- Predicts rating for a new movie using known features
+
+---
+
+## 3. 🌸 Iris Flower Classification
+
+**Objective:** Classify iris flowers into three species (Setosa, Versicolor, Virginica) based on petal and sepal dimensions.
+
+**Dataset:** Built-in Iris dataset from Scikit-learn
+
+**Tools Used:**
+- Python
+- Scikit-learn
+- Pandas
+- Matplotlib
+
+**Key Highlights:**
+- Visualized data using scatter plots
+- Used K-Nearest Neighbors (KNN) for classification
+- Evaluated model accuracy on test data
+- Simple and effective model for multiclass classification
+
+---
