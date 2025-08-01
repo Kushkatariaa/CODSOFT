@@ -48,7 +48,7 @@ This repository includes three beginner-friendly machine learning projects focus
 
 **Objective:** Classify iris flowers into three species (Setosa, Versicolor, Virginica) based on petal and sepal dimensions.
 
-**Dataset:** Built-in Iris dataset from Scikit-learn
+**Dataset:** (https://www.kaggle.com/datasets/arshid/iris-flower-dataset)
 
 **Tools Used:**
 - Python
