@@ -57,3 +57,12 @@ prediction = knn.predict(sample_scaled)
 # Get predicted species name
 predicted_species = target_names[prediction][0]
 print(f"Predicted species for the input sample: {predicted_species}")
+
+# Step 7: Visualize the Data
+plt.figure(figsize=(10, 6))
+sns.scatterplot(x='sepal_length', y='sepal_width', hue='species', data=df, palette='viridis')
+plt.title('Sepal Length vs. Sepal Width by Species')
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Sepal Width (cm)')
+plt.legend(title='Species')
+plt.show()
